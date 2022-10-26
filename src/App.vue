@@ -1,13 +1,19 @@
 <script setup>
 import AnimeDaysOfWeekVue from './components/AnimeDaysOfWeek.vue';
+import Navbar from './components/Navbar.vue';
 </script>
+
+<style>
+  *{
+  margin: 0;
+  }
+</style>
+
 
 <template>
   <div>
-      <AnimeDaysOfWeekVue/>
+      <Navbar/>
+      <AnimeDaysOfWeekVue/> <!-- test -->
   </div>
 </template>
 
-<style scoped>
-
-</style>
